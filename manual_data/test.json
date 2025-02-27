@@ -1,0 +1,194 @@
+{
+  "repeated": [
+    {
+      "input": "the cat but the dog the cat and the dog the cat but the dog the cat and the dog the cat and the dog ",
+      "target": "the cat and the dog the cat and the dog the cat and the dog the cat and the dog the cat and the dog ",
+      "type": "repeated",
+      "description": "Simple repeating phrase with a variation"
+    },
+    {
+      "input": "the cat but the dog the cat and the dog the cat but the dog the cat and the dog the cat and the dog ",
+      "target": "the cat and the dog the cat and the dog the cat and the dog the cat and the dog the cat and the dog ",
+      "type": "repeated",
+      "description": "Simple repeating phrase with a variation"
+    },
+    {
+      "input": "the cat but the dog the cat and the dog the cat but the dog the cat and the dog the cat and the dog ",
+      "target": "the cat and the dog the cat and the dog the cat and the dog the cat and the dog the cat and the dog ",
+      "type": "repeated",
+      "description": "Simple repeating phrase with a variation"
+    },
+    {
+      "input": "the cat but the dog the cat and the dog the cat but the dog the cat and the dog the cat and the dog ",
+      "target": "the cat and the dog the cat and the dog the cat and the dog the cat and the dog the cat and the dog ",
+      "type": "repeated",
+      "description": "Simple repeating phrase with a variation"
+    },
+    {
+      "input": "the cat but the dog the cat and the dog the cat but the dog the cat and the dog the cat and the dog ",
+      "target": "the cat and the dog the cat and the dog the cat and the dog the cat and the dog the cat and the dog ",
+      "type": "repeated",
+      "description": "Simple repeating phrase with a variation"
+    }
+  ],
+  "hierarchical": [
+    {
+      "input": "The scientist, who had studied the ancient manuscripts that were discovered\n    in the temple that vanished centuries ago which was built by the civilization,\n    finally understood the message that was hidden within the text.",
+      "target": "The scientist, who had studied the ancient manuscripts that were discovered \n    in the temple which was built by the civilization that vanished centuries ago, \n    finally understood the message that was hidden within the text.",
+      "type": "hierarchical",
+      "description": "Nested clauses with long-range grammatical dependencies"
+    },
+    {
+      "input": "The scientist, who had studied the ancient manuscripts that were discovered\n    in the temple that vanished centuries ago which was built by the civilization,\n    finally understood the message that was hidden within the text.",
+      "target": "The scientist, who had studied the ancient manuscripts that were discovered \n    in the temple which was built by the civilization that vanished centuries ago, \n    finally understood the message that was hidden within the text.",
+      "type": "hierarchical",
+      "description": "Nested clauses with long-range grammatical dependencies"
+    },
+    {
+      "input": "The scientist, who had studied the ancient manuscripts that were discovered\n    in the temple that vanished centuries ago which was built by the civilization,\n    finally understood the message that was hidden within the text.",
+      "target": "The scientist, who had studied the ancient manuscripts that were discovered \n    in the temple which was built by the civilization that vanished centuries ago, \n    finally understood the message that was hidden within the text.",
+      "type": "hierarchical",
+      "description": "Nested clauses with long-range grammatical dependencies"
+    },
+    {
+      "input": "The scientist, who had studied the ancient manuscripts that were discovered\n    in the temple that vanished centuries ago which was built by the civilization,\n    finally understood the message that was hidden within the text.",
+      "target": "The scientist, who had studied the ancient manuscripts that were discovered \n    in the temple which was built by the civilization that vanished centuries ago, \n    finally understood the message that was hidden within the text.",
+      "type": "hierarchical",
+      "description": "Nested clauses with long-range grammatical dependencies"
+    },
+    {
+      "input": "The scientist, who had studied the ancient manuscripts that were discovered\n    in the temple that vanished centuries ago which was built by the civilization,\n    finally understood the message that was hidden within the text.",
+      "target": "The scientist, who had studied the ancient manuscripts that were discovered \n    in the temple which was built by the civilization that vanished centuries ago, \n    finally understood the message that was hidden within the text.",
+      "type": "hierarchical",
+      "description": "Nested clauses with long-range grammatical dependencies"
+    }
+  ],
+  "long_term": [
+    {
+      "input": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her green pen to write notes in her blue book.\n    Meanwhile, Bob was painting with his favorite red watercolors.",
+      "target": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her blue pen to write notes in her red book.\n    Meanwhile, Bob was painting with his favorite green watercolors.",
+      "type": "long_term",
+      "description": "Long-term consistency in object properties and references"
+    },
+    {
+      "input": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her green pen to write notes in her blue book.\n    Meanwhile, Bob was painting with his favorite red watercolors.",
+      "target": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her blue pen to write notes in her red book.\n    Meanwhile, Bob was painting with his favorite green watercolors.",
+      "type": "long_term",
+      "description": "Long-term consistency in object properties and references"
+    },
+    {
+      "input": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her green pen to write notes in her blue book.\n    Meanwhile, Bob was painting with his favorite red watercolors.",
+      "target": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her blue pen to write notes in her red book.\n    Meanwhile, Bob was painting with his favorite green watercolors.",
+      "type": "long_term",
+      "description": "Long-term consistency in object properties and references"
+    },
+    {
+      "input": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her green pen to write notes in her blue book.\n    Meanwhile, Bob was painting with his favorite red watercolors.",
+      "target": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her blue pen to write notes in her red book.\n    Meanwhile, Bob was painting with his favorite green watercolors.",
+      "type": "long_term",
+      "description": "Long-term consistency in object properties and references"
+    },
+    {
+      "input": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her green pen to write notes in her blue book.\n    Meanwhile, Bob was painting with his favorite red watercolors.",
+      "target": "Alice had a red book and a blue pen. Bob preferred green colors.\n    Later that day, Alice used her blue pen to write notes in her red book.\n    Meanwhile, Bob was painting with his favorite green watercolors.",
+      "type": "long_term",
+      "description": "Long-term consistency in object properties and references"
+    }
+  ],
+  "mathematical": [
+    {
+      "input": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were seven birds.\n    On day five, there were twelve birds. Each day, the number of birds doubled.",
+      "target": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were eight birds.\n    On day five, there were sixteen birds. Each day, the number of birds doubled.",
+      "type": "mathematical",
+      "description": "Geometric progression described in text"
+    },
+    {
+      "input": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were seven birds.\n    On day five, there were twelve birds. Each day, the number of birds doubled.",
+      "target": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were eight birds.\n    On day five, there were sixteen birds. Each day, the number of birds doubled.",
+      "type": "mathematical",
+      "description": "Geometric progression described in text"
+    },
+    {
+      "input": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were seven birds.\n    On day five, there were twelve birds. Each day, the number of birds doubled.",
+      "target": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were eight birds.\n    On day five, there were sixteen birds. Each day, the number of birds doubled.",
+      "type": "mathematical",
+      "description": "Geometric progression described in text"
+    },
+    {
+      "input": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were seven birds.\n    On day five, there were twelve birds. Each day, the number of birds doubled.",
+      "target": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were eight birds.\n    On day five, there were sixteen birds. Each day, the number of birds doubled.",
+      "type": "mathematical",
+      "description": "Geometric progression described in text"
+    },
+    {
+      "input": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were seven birds.\n    On day five, there were twelve birds. Each day, the number of birds doubled.",
+      "target": "On day one, there was one bird. On day two, there were two birds.\n    On day three, there were four birds. On day four, there were eight birds.\n    On day five, there were sixteen birds. Each day, the number of birds doubled.",
+      "type": "mathematical",
+      "description": "Geometric progression described in text"
+    }
+  ],
+  "contextual": [
+    {
+      "input": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were full of flowers, and people wore swimsuits.\n    SEASON_CHANGE\n    Back in summer: The trees were covered in snow, and heavy coats were common.",
+      "target": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were bare, and people wore heavy coats.\n    SEASON_CHANGE\n    Back in summer: The trees were full of green leaves again, and light clothes returned.",
+      "type": "contextual",
+      "description": "Context-dependent descriptions with seasonal changes"
+    },
+    {
+      "input": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were full of flowers, and people wore swimsuits.\n    SEASON_CHANGE\n    Back in summer: The trees were covered in snow, and heavy coats were common.",
+      "target": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were bare, and people wore heavy coats.\n    SEASON_CHANGE\n    Back in summer: The trees were full of green leaves again, and light clothes returned.",
+      "type": "contextual",
+      "description": "Context-dependent descriptions with seasonal changes"
+    },
+    {
+      "input": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were full of flowers, and people wore swimsuits.\n    SEASON_CHANGE\n    Back in summer: The trees were covered in snow, and heavy coats were common.",
+      "target": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were bare, and people wore heavy coats.\n    SEASON_CHANGE\n    Back in summer: The trees were full of green leaves again, and light clothes returned.",
+      "type": "contextual",
+      "description": "Context-dependent descriptions with seasonal changes"
+    },
+    {
+      "input": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were full of flowers, and people wore swimsuits.\n    SEASON_CHANGE\n    Back in summer: The trees were covered in snow, and heavy coats were common.",
+      "target": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were bare, and people wore heavy coats.\n    SEASON_CHANGE\n    Back in summer: The trees were full of green leaves again, and light clothes returned.",
+      "type": "contextual",
+      "description": "Context-dependent descriptions with seasonal changes"
+    },
+    {
+      "input": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were full of flowers, and people wore swimsuits.\n    SEASON_CHANGE\n    Back in summer: The trees were covered in snow, and heavy coats were common.",
+      "target": "In summer: The trees were full of green leaves, and people wore light clothes.\n    SEASON_CHANGE\n    In winter: The trees were bare, and people wore heavy coats.\n    SEASON_CHANGE\n    Back in summer: The trees were full of green leaves again, and light clothes returned.",
+      "type": "contextual",
+      "description": "Context-dependent descriptions with seasonal changes"
+    }
+  ],
+  "logical": [
+    {
+      "input": "The sky darkened with heavy clouds. Soon after, the sun was blazing.\n    People opened their umbrellas and went sunbathing. The streets became wet.\n    Later, it started raining, and the puddles began to appear.",
+      "target": "The sky darkened with heavy clouds. Soon after, rain began to fall.\n    People opened their umbrellas and sought shelter. The streets became wet.\n    Later, the sun emerged, and the puddles began to dry.",
+      "type": "logical",
+      "description": "Logical sequence of weather-related events"
+    },
+    {
+      "input": "The sky darkened with heavy clouds. Soon after, the sun was blazing.\n    People opened their umbrellas and went sunbathing. The streets became wet.\n    Later, it started raining, and the puddles began to appear.",
+      "target": "The sky darkened with heavy clouds. Soon after, rain began to fall.\n    People opened their umbrellas and sought shelter. The streets became wet.\n    Later, the sun emerged, and the puddles began to dry.",
+      "type": "logical",
+      "description": "Logical sequence of weather-related events"
+    },
+    {
+      "input": "The sky darkened with heavy clouds. Soon after, the sun was blazing.\n    People opened their umbrellas and went sunbathing. The streets became wet.\n    Later, it started raining, and the puddles began to appear.",
+      "target": "The sky darkened with heavy clouds. Soon after, rain began to fall.\n    People opened their umbrellas and sought shelter. The streets became wet.\n    Later, the sun emerged, and the puddles began to dry.",
+      "type": "logical",
+      "description": "Logical sequence of weather-related events"
+    },
+    {
+      "input": "The sky darkened with heavy clouds. Soon after, the sun was blazing.\n    People opened their umbrellas and went sunbathing. The streets became wet.\n    Later, it started raining, and the puddles began to appear.",
+      "target": "The sky darkened with heavy clouds. Soon after, rain began to fall.\n    People opened their umbrellas and sought shelter. The streets became wet.\n    Later, the sun emerged, and the puddles began to dry.",
+      "type": "logical",
+      "description": "Logical sequence of weather-related events"
+    },
+    {
+      "input": "The sky darkened with heavy clouds. Soon after, the sun was blazing.\n    People opened their umbrellas and went sunbathing. The streets became wet.\n    Later, it started raining, and the puddles began to appear.",
+      "target": "The sky darkened with heavy clouds. Soon after, rain began to fall.\n    People opened their umbrellas and sought shelter. The streets became wet.\n    Later, the sun emerged, and the puddles began to dry.",
+      "type": "logical",
+      "description": "Logical sequence of weather-related events"
+    }
+  ]
+}
