@@ -1,0 +1,17 @@
+{
+  "dataset_description": "Manually crafted text datasets for testing FMN capabilities",
+  "pattern_types": {
+    "repeated": "Simple repeating phrases with variations",
+    "hierarchical": "Nested clauses and complex grammatical structures",
+    "long_term": "Long-range dependencies between concepts and properties",
+    "mathematical": "Number sequences and patterns described in text",
+    "contextual": "Context-dependent descriptions and state changes",
+    "logical": "Cause and effect relationships in sequences"
+  },
+  "statistics": {
+    "training_samples_per_type": 10,
+    "testing_samples_per_type": 5,
+    "total_training_samples": 60,
+    "total_testing_samples": 30
+  }
+}

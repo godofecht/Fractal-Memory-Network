@@ -1,0 +1,16 @@
+{
+    "title": "Fractal Memory Network Training",
+    "id": "fractalmemorynetwork",
+    "licenses": [
+        {
+            "name": "MIT"
+        }
+    ],
+    "language": "python",
+    "kernel_type": "script",
+    "enable_gpu": true,
+    "enable_internet": true,
+    "dataset_sources": [],
+    "competition_sources": [],
+    "kernel_sources": []
+} 
