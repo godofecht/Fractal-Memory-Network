@@ -67,7 +67,7 @@ Checkpoints are written as standard PyTorch state dictionaries under `checkpoint
 
 ## CI
 
-GitHub Actions installs the core package on Python 3.11, compiles the importable modules, and runs the unit suite. Tests cover loss/logit shapes, hierarchical memory reuse, causal masking, and sequence utility behavior.
+GitHub Actions installs the core package on Python 3.11, compiles the importable modules, and runs the unit suite. Tests cover loss/logit shapes, hierarchical memory reuse, causal masking, and sequence utility behavior. The workflow is intentionally CPU-only so routine validation stays lightweight.
 
 ## Repository status
 
