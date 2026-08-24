@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+.DS_Store
+
+checkpoints/
+evaluation_results/
+benchmark_results/
+logs/
+wandb/
+
+.kaggle/kaggle.json
