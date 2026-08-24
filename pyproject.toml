@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fractal-memory-network"
+version = "0.2.0"
+description = "A research implementation of hierarchical recurrent memory for language modeling"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Abhishek Shivakumar" }]
+dependencies = [
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+train = [
+  "transformers>=4.40",
+  "tqdm>=4.66",
+  "wandb>=0.17",
+]
+benchmark = [
+  "datasets>=2.19",
+  "evaluate>=0.4.2",
+  "matplotlib>=3.8",
+  "numpy>=1.26",
+  "scikit-learn>=1.4",
+]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools]
+packages = ["model", "utils"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
